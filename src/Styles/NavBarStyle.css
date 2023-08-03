@@ -26,7 +26,7 @@ nav span {
 }
 
 nav .active span {
-    color: #0087ee;
+    border-bottom: 2px solid #ee9800;
 }
 
 nav span:hover {
