@@ -93,6 +93,32 @@ nav a {
     text-decoration: none;
 }
 
+.bottom_bg img {
+    opacity: 0.5;
+}
+
+.bottom_bg {
+    position: relative;
+    margin-top: 2rem;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: bolder;
+}
+
+.profile_link {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
 @media screen and (max-width : 789px) {
     html,body {
         overflow-x: hidden;
