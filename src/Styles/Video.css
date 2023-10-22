@@ -116,10 +116,6 @@ h4 {
     opacity: 0.5;
 }
 
-.loading .bottom_bg {
-    display: none;
-}
-
 .bottom_bg {
     position: relative;
     margin-top: 2rem;

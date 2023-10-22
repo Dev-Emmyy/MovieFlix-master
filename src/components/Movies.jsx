@@ -35,16 +35,16 @@ function Movies({ id }) {
 
   useEffect(() => {
     setTimeout(() => {
-      setLoading(false); 
-    }, 15000); 
+      setLoading(false);
+    }, 5000);
   }, []);
 
   return (
     <Fragment>
-      <div className={toggle ? "mainBgColor" : "secondaryBgColor"}>
-        {loading ? (
-          <div className="loading-spinner"></div>
-        ) : (
+      {loading ? ( // Render loading spinner if loading is true
+        <div className="loading-spinner"></div>
+      ) : (
+        <div className="mainBgColor">
           <div className="movie_container">
             {moviesData.map((movie) => (
               <Link to={`/${movie.id}`} key={movie.id} style={{ textDecorationLine: "none" }}>
@@ -58,37 +58,32 @@ function Movies({ id }) {
               </Link>
             ))}
           </div>
-        )}
-        <div className={`bottom_bg ${loading ? "loading" : ""}`}>
-          <img src={BottomBg} width="100%" height="350px" />
-          <div className="profile_link">
-            <div className="contact">
-              <h2>Connect Us</h2>
-            </div>
-            <div className="profile">
-              <a href="https://www.linkedin.com/in/ugochukwu-emmanuel-ba798a25a/">
-                <AiFillLinkedin color="#0072b1" fontSize={30} cursor="pointer" fontWeight="bolder" />
-              </a>
-              <a href="https://twitter.com/9Gunna9">
-                <AiOutlineTwitter color="#1DA1F2" fontSize={30} fontWeight="bolder" />
-              </a>
-              <a href="https://github.com/Dev-Emmyy">
-                <AiFillGithub color="black" fontSize={30} cursor="pointer" fontWeight="bolder" />
-              </a>
-            </div>
-
-            <div>
-              <h2>My Challenge 1 project, Created by Dev-Emmy</h2>
+          <div className="bottom_bg">
+            <img src={BottomBg} width="100%" height="350px" />
+            <div className="profile_link">
+              <div className="contact">
+                <h2>Connect Us</h2>
+              </div>
+              <div className="profile">
+                <a href="https://www.linkedin.com/in/ugochukwu-emmanuel-ba798a25a/">
+                  <AiFillLinkedin color="#0072b1" fontSize={30} cursor="pointer" fontWeight="bolder" />
+                </a>
+                <a href="https://twitter.com/9Gunna9">
+                  <AiOutlineTwitter color="#1DA1F2" fontSize={30} fontWeight="bolder" />
+                </a>
+                <a href="https://github.com/Dev-Emmyy">
+                  <AiFillGithub color="black" fontSize={30} cursor="pointer" fontWeight="bolder" />
+                </a>
+              </div>
+              <div>
+                <h2>My Challenge 1 project, Created by Dev-Emmy</h2>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      )}
     </Fragment>
   );
 }
 
 export default Movies;
-
-
-
-
