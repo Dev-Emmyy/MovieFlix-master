@@ -37,7 +37,7 @@ function Movies({ id }) {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false); 
-    }, 5000); 
+    }, 15000); 
   }, []);
 
   return (
