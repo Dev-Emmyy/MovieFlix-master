@@ -33,14 +33,6 @@ function Movies({id}) {
   },[input])
   console.log(moviesData);
 
-
-  useEffect(() => {
-    setTimeout(() => {
-      setLoading(false);
-    }, 5000); 
-  }, []);
-
-
     return (
       <Fragment>
         <div className={toggle? "mainBgColor" : "secondaryBgColor"}>
