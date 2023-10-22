@@ -38,13 +38,12 @@ function TvShows({id}) {
             <div className={toggle? "mainBgColor" : "secondaryBgColor"}>
                 <div className="movie_container">
                      {TvShowsData.map((shows) => (
-                     <Link to={`/${shows.id}`} key={shows.id} style={{textDecorationLine:"none"}}>
                           <div className="container">
                               <AiFillPlayCircle color="green" fontSize={40} id="playicon"/>
                               <img src={shows.poster_path ? `${Img}${shows.poster_path}`: NoImg} alt="movie poster" />
                                <h4 id={shows.name.length < 28? "" : "smallertext"} className={toggle? "mainColor" : "secondaryColor"} >{shows.name}</h4>
                           </div>
-                    </Link> ))}
+                   ))}
                   </div>
             <div className="bottom_bg">
             <img src={BottomBg} width="100%"  height="350px"/>

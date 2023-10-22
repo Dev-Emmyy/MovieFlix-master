@@ -124,6 +124,24 @@ h2 span {
 
 .bottom_bg {
     position: relative;
+    margin-top: 2rem;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: bolder;
+}
+
+.profile_link {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
 
