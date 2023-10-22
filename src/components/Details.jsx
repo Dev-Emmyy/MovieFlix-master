@@ -83,7 +83,6 @@ function handleSearch() {
         <div className="loading-spinner"></div>
       ) : (
     <Fragment>
-      
         <div
           id="bg_image"
           style={{
