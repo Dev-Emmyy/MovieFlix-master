@@ -1,11 +1,9 @@
 import React, { Fragment, useEffect, useState, useContext } from "react";
 import {Container} from "./Navbar";
 import { AiFillPlayCircle} from "react-icons/ai";
-import {AiFillLinkedin,AiOutlineTwitter,AiFillGithub} from "react-icons/ai"
 import Noimg from "./no img.jpg";
 import "../Styles/Video.css";
 import axios from 'axios';
-import BottomBg from "./bottom img.jpg";
 import {Link} from "react-router-dom";
 
 function Movies({id}) {
