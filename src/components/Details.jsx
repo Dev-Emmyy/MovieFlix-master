@@ -83,7 +83,7 @@ function handleSearch() {
         <div className="loading-spinner"></div>
       ) : (
     <Fragment>
-      <div id="secondaryColor">
+      
         <div
           id="bg_image"
           style={{
@@ -128,7 +128,6 @@ function handleSearch() {
             </div>
           </div>
         </div>
-      </div>
 
       <div className="bottom_bg">
         <img src={BottomBg} width="100%" height="350px" />
