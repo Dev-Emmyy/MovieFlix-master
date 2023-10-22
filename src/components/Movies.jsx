@@ -11,6 +11,7 @@ function Movies({id}) {
     const {toggle,inputValue} = useContext(Container);
     const input = inputValue;
     const Shown = input ? "search" : "discover";
+    const [loading, setLoading] = useState(true);
 
     const[moviesData,setMoviesData] = useState([])
 
@@ -31,6 +32,12 @@ function Movies({id}) {
     MovieCall()
   },[input])
   console.log(moviesData);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false); 
+    }, 5000); 
+  }, []);
 
     return (
      <Fragment>
