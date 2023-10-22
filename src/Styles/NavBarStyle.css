@@ -97,6 +97,18 @@ nav a {
     opacity: 0.5;
 }
 
+#mainBgColor {
+    transition: .7s ease;
+    background-color: #0c1e25;
+    width: 100%;
+}
+
+#secondaryBgColor {
+    transition: .7s ease;
+    background-color: #fff;
+    width: 100%;
+}
+
 .bottom_bg {
     position: relative;
     margin-top: 2rem;

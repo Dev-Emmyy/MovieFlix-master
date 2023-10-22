@@ -8,7 +8,7 @@ import Movies from "./Movies";
 import Trends from "./Trends";
 import TvShows from "./TvShows";
 import Details from "./Details";
-import BottomBg from "./bottom img.jpg";
+import BottomBg from "./bottom img.jpg"
 import {AiFillLinkedin,AiOutlineTwitter,AiFillGithub} from "react-icons/ai";
 
 export const Container = React.createContext()
@@ -60,7 +60,7 @@ function Navbar(){
         </Routes>
 
 
-        <div className="bottom_bg">
+        <div className="bottom_bg" id={toggle? "mainBgColor" : "secondaryBgColor"}>
           <img src={BottomBg} width="100%"  height="350px"/>
          <div className="profile_link">
           <div className="contact">
