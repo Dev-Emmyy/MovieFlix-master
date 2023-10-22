@@ -13,6 +13,7 @@ function Details() {
   
   const[moviesDetails,setMoviesDetails] = useState();
   const [videoURL, setVideoURL] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   const {id} = useParams()
   const Api = `https://api.themoviedb.org/3/movie/${id}`;

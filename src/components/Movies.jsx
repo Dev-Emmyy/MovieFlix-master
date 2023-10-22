@@ -12,7 +12,6 @@ function Movies({id}) {
     const {toggle,inputValue} = useContext(Container);
     const input = inputValue;
     const Shown = input ? "search" : "discover";
-    const [loading, setLoading] = useState(true);
 
     const[moviesData,setMoviesData] = useState([])
 
