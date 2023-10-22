@@ -1,5 +1,5 @@
 import { Fragment, useEffect, useState , useContext } from "react";
-import {AiFillPlayCircle,AiFillLinkedin,AiOutlineTwitter,AiFillGithub} from "react-icons/ai"
+import {AiFillPlayCircle,AiFillLinkedin,AiOutlineTwitter,AiFillGithub} from "react-icons/ai";
 import { Container } from "./Navbar";
 import NoImg from "./no img.jpg"
 import "../Styles/Video.css"
@@ -38,7 +38,7 @@ function TvShows({id}) {
             <div className={toggle? "mainBgColor" : "secondaryBgColor"}>
                 <div className="movie_container">
                      {TvShowsData.map((shows) => (
-                     <Link to={`/${movie.id}`} key={movie.id} style={{textDecorationLine:"none"}}>
+                     <Link to={`/${shows.id}`} key={shows.id} style={{textDecorationLine:"none"}}>
                           <div className="container">
                               <AiFillPlayCircle color="green" fontSize={40} id="playicon"/>
                               <img src={shows.poster_path ? `${Img}${shows.poster_path}`: NoImg} alt="movie poster" />
