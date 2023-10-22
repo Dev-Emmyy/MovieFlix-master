@@ -50,6 +50,13 @@ function Details() {
     useEffect(()=> {
     videoTrillerCall();
   },[])
+
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false); 
+    }, 5000); 
+  }, []);
   
    
 
