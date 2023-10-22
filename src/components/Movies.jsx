@@ -15,7 +15,7 @@ function Movies({id}) {
 
     const Api = `https://api.themoviedb.org/3/${Shown}/movie`;
     const Images = "https://image.tmdb.org/t/p/w500"
-  const MovieCall = async() => {
+    const MovieCall = async() => {
     const data = await axios.get(Api,{
         params:{
             api_key: "47440337c6b528a0103650d276133e76",

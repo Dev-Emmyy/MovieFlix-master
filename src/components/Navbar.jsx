@@ -8,6 +8,7 @@ import Movies from "./Movies";
 import Trends from "./Trends";
 import TvShows from "./TvShows";
 import Details from "./Details";
+import BottomBg from "./bottom img.jpg";
 import {AiFillLinkedin,AiOutlineTwitter,AiFillGithub} from "react-icons/ai";
 
 export const Container = React.createContext()
