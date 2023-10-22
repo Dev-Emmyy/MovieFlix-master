@@ -34,6 +34,12 @@ function Movies({ id }) {
     MovieCall();
   }, [input]);
 
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false); 
+    }, 5000); 
+  }, []);
+
   return (
     <Fragment>
       <div className={toggle ? "mainBgColor" : "secondaryBgColor"}>
