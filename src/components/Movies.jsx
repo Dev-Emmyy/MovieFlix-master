@@ -44,7 +44,7 @@ function Movies({ id }) {
       {loading ? ( // Render loading spinner if loading is true
         <div className="loading-spinner"></div>
       ) : (
-        <div className="mainBgColor">
+        <div className={toggle? "mainBgColor" : "secondaryBgColor"}>
           <div className="movie_container">
             {moviesData.map((movie) => (
               <Link to={`/${movie.id}`} key={movie.id} style={{ textDecorationLine: "none" }}>
