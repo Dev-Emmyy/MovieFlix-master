@@ -28,7 +28,6 @@ function Movies({ id }) {
       });
       const results = data.data.results;
       setMoviesData(results);
-      setLoading(false);
     };
 
     MovieCall();
