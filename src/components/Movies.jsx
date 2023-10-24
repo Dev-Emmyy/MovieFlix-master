@@ -87,3 +87,5 @@ function Movies({ id }) {
 }
 
 export default Movies;
+
+
