@@ -1,4 +1,8 @@
 
+.container {
+    position: relative;
+}
+
 .loading-spinner {
     display: flex;
     justify-content: center;
@@ -127,14 +131,14 @@ h4 {
 
     .bottom_bg {
         background-color: rgb(55, 50, 50);
-        margin-top: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
     }
 
     .contact h2 {
         text-align: center;
         margin-bottom: 2rem;
         font-weight: bolder;
-        color: #fff;
     }
 
     .profile_link {
@@ -146,6 +150,5 @@ h4 {
 
     .profile {
         text-align: center;
-        margin-bottom: 1rem;
     }
 }
