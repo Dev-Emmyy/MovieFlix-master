@@ -44,6 +44,7 @@ function Movies({ id }) {
       {loading ? ( // Render loading spinner if loading is true
         <div className="loading-spinner"></div>
       ) : (
+        <div>
         <div className={toggle? "mainBgColor" : "secondaryBgColor"}>
           <div className="movie_container">
             {moviesData.map((movie) => (
@@ -58,7 +59,9 @@ function Movies({ id }) {
               </Link>
             ))}
           </div>
-          <div className="bottom_bg">
+        </div>
+
+        <div className="bottom_bg">
             <div className="profile_link">
               <div className="contact">
                 <h2>Connect Us</h2>
@@ -79,7 +82,7 @@ function Movies({ id }) {
               </div>
             </div>
           </div>
-        </div>
+         </div>
       )}
     </Fragment>
   );
