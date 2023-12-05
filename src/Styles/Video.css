@@ -54,7 +54,7 @@ h4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-bottom: 4rem;
+    margin-bottom: 4rem;
 }
 
 .movie_container img {
@@ -94,8 +94,8 @@ h4 {
 
 .bottom_bg {
     background: rgb(55, 50, 50);
-    padding-top: 2rem;
-    margin-bottom: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
