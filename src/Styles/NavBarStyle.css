@@ -157,10 +157,6 @@ nav a {
             width: 50px;
         }
 
-        .search {
-            display: none;
-        }
-
         .input_section input {
             border: none;
             outline: none;
