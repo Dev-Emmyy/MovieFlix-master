@@ -44,7 +44,6 @@ function Movies({ id }) {
       {loading ? ( // Render loading spinner if loading is true
         <div className="loading-spinner"></div>
       ) : (
-        <div>
         <div className={toggle? "mainBgColor" : "secondaryBgColor"}>
           <div className="movie_container">
             {moviesData.map((movie) => (
@@ -60,23 +59,6 @@ function Movies({ id }) {
             ))}
           </div>
         </div>
-
-        <div className="bottom_bg">
-              <h2>Connect Us</h2>
-              <div className="profile">
-                <a href="https://www.linkedin.com/in/ugochukwu-emmanuel-ba798a25a/">
-                  <AiFillLinkedin color="#0072b1" fontSize={30} cursor="pointer" fontWeight="bolder" />
-                </a>
-                <a href="https://twitter.com/9Gunna9">
-                  <AiOutlineTwitter color="#1DA1F2" fontSize={30} fontWeight="bolder" />
-                </a>
-                <a href="https://github.com/Dev-Emmyy">
-                  <AiFillGithub color="black" fontSize={30} cursor="pointer" fontWeight="bolder" />
-                </a>
-              </div>
-                <h2>My Challenge 1 project, Created by Dev-Emmy</h2>
-            </div>
-         </div>
       )}
     </Fragment>
   );
