@@ -24,15 +24,15 @@ function Navbar(){
             <div className="nav_options">
                      <h1 id={toggle? "" : "heading"}>MOVIEFLIX</h1>
     
-                 <NavLink to="/">
+                 <NavLink to="/" className="nav_link">
                      <span id={toggle? "movies" : "movies_light"}>Movies</span>
                 </NavLink>
                
-                 <NavLink to="/TvShows">
+                 <NavLink to="/TvShows" className="nav_link">
                      <span  id={toggle? "movies" : "movies_light"}>TvShows</span>
                 </NavLink>
                
-                 <NavLink to="/Trends">
+                 <NavLink to="/Trends" className="nav_link">
                      <span  id={toggle? "movies" : "movies_light"}>Trending</span>
                 </NavLink>
                
@@ -40,7 +40,7 @@ function Navbar(){
             <div className="input_section">
                 <input type="text" placeholder="Search for a Movie" onChange={(e) => setInputValue(e.target.value)}/>
                 <HiSearch fontSize={21} color="black" id="search" cursor={"pointer"}/>
-                </div>
+            </div>
            
 
             <div className="color_mode" onClick={() => setToggle(!toggle)}>
