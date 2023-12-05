@@ -1,13 +1,4 @@
-#bg_image::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 10%;
-    bottom: 0;
-    background: rgba(0, 0, 0, .5);
-    height: 1400px;
-}
+
 
 #details_container {
     position: relative;
