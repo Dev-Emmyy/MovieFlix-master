@@ -54,7 +54,6 @@ h4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    height: 100vh;
 }
 
 .movie_container img {
@@ -74,12 +73,14 @@ h4 {
     transition: .7s ease;
     background-color: #0c1e25;
     width: 100%;
+    padding-bottom: 5rem;
 }
 
 .secondaryBgColor {
     transition: .7s ease;
     background-color: #fff;
     width: 100%;
+    padding-bottom: 5rem;
 }
 
 .mainColor {
