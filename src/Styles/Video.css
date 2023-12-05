@@ -95,7 +95,8 @@ h4 {
 
 .bottom_bg {
     background: rgb(55, 50, 50);
-   
+    padding-top: 5rem;
+    margin-top: -5rem;
     padding-bottom: 5rem;
     display: flex;
     flex-direction: column;
