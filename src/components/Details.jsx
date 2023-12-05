@@ -84,7 +84,6 @@ function handleSearch() {
       ) : (
     <Fragment>
         <div
-          id="bg_image"
           style={{
             backgroundImage: `url(${backgroundStyle})`,
             backgroundSize: "cover",
