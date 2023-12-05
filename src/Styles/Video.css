@@ -54,7 +54,7 @@ h4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 4rem;
+    padding-bottom: 4rem;
 }
 
 .movie_container img {
