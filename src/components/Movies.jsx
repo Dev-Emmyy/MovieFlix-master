@@ -42,7 +42,7 @@ function Movies({ id }) {
   return (
     <Fragment>
       {loading ? ( // Render loading spinner if loading is true
-        <div className="loading-spinner"></div>
+        <div ></div>
       ) : (
         <div className={toggle? "mainBgColor" : "secondaryBgColor"}>
           <div className="movie_container">
