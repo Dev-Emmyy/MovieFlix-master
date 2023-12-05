@@ -49,7 +49,7 @@ function Movies({ id }) {
             {moviesData.map((movie) => (
               <Link to={`/${movie.id}`} key={movie.id} style={{ textDecorationLine: "none" }}>
                 <div className="container">
-                  <AiFillPlayCircle color="green" fontSize={40} id="playicon" />
+                  
                   <img src={movie.poster_path ? `${Images}${movie.poster_path}` : Noimg} alt="movie poster" />
                   <h4 id={movie.title.length < 28 ? "" : "smallertext"} className={toggle ? "mainColor" : "secondaryColor"}>
                     {movie.title}
