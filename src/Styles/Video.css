@@ -178,9 +178,7 @@ h4 {
         }
     
         .profile_link {
-            position: absolute;
-            top: 20%;
-            left: 10%;
+            text-align: center;
         }
     
         .profile {
