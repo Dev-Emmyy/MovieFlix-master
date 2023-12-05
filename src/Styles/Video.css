@@ -93,8 +93,9 @@ h4 {
 }
 
 .bottom_bg {
-    background-color: rgb(41, 37, 37);
-    margin-top: 2rem;
+    background: rgb(55, 50, 50);
+    padding-top: 2rem;
+    margin-bottom: 3rem;
 }
 
 .contact h2 {
@@ -130,9 +131,9 @@ h4 {
 
 
     .bottom_bg {
-        background-color: rgb(55, 50, 50);
+        background: rgb(55, 50, 50);
         padding-top: 2rem;
-        padding-bottom: 2rem;
+        margin-bottom: 3rem;
     }
 
     .contact h2 {
