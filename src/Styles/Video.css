@@ -1,12 +1,6 @@
-
-.container {
+body {
     position: relative;
 }
-
-.NoContainer {
-    opacity: 0.35;
-}
-
 
 .loading-spinner {
     display: flex;
@@ -96,22 +90,6 @@ h4 {
     color: #ff206e;;
 }
 
-#hide {
-    display: none;
-}
-
-#Exit1 {
-    position: absolute;
-    top: 97px;
-    left: 75%;
-    z-index: 999;
-    display: block;
-}
-
-#Nothing {
-    display: none;
-}
-
 .bottom_bg {
     background-color: rgb(55, 50, 50);
     margin-top: 2rem;
@@ -142,43 +120,35 @@ h4 {
     html,body {
         overflow-x: hidden;
     }
-
-        container {
-            position: relative;
-        }
     
-        .NoContainer {
-            opacity: 0.35;
-        }
-    
-        h4 {
-            font-size: 8px;
-            text-align: center;
-            margin-top: 9px;
-        }
-    
-    
-        .bottom_bg {
-            background-color: rgb(55, 50, 50);
-            margin-top: 2rem;
-        }
+    h4 {
+        font-size: 8px;
+        text-align: center;
+        margin-top: 9px;
+    }
 
-        .contact h2 {
-            text-align: center;
-            margin-bottom: 2rem;
-            font-weight: bolder;
-            color: #fff;
-        }
 
-        .profile_link {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
+    .bottom_bg {
+        background-color: rgb(55, 50, 50);
+        margin-top: 2rem;
+    }
 
-        .profile {
-            text-align: center;
-            margin-bottom: 1rem;
-        }
+    .contact h2 {
+        text-align: center;
+        margin-bottom: 2rem;
+        font-weight: bolder;
+        color: #fff;
+    }
+
+    .profile_link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .profile {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
 }
