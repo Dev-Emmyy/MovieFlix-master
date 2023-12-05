@@ -59,7 +59,6 @@ function Movies({ id }) {
             ))}
           </div>
           <div className="bottom_bg">
-            <img src={BottomBg} width="100%" height="350px" />
             <div className="profile_link">
               <div className="contact">
                 <h2>Connect Us</h2>
