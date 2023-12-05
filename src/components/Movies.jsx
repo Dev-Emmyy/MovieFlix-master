@@ -62,10 +62,7 @@ function Movies({ id }) {
         </div>
 
         <div className="bottom_bg">
-            <div className="profile_link">
-              <div className="contact">
-                <h2>Connect Us</h2>
-              </div>
+              <h2>Connect Us</h2>
               <div className="profile">
                 <a href="https://www.linkedin.com/in/ugochukwu-emmanuel-ba798a25a/">
                   <AiFillLinkedin color="#0072b1" fontSize={30} cursor="pointer" fontWeight="bolder" />
@@ -77,11 +74,8 @@ function Movies({ id }) {
                   <AiFillGithub color="black" fontSize={30} cursor="pointer" fontWeight="bolder" />
                 </a>
               </div>
-              <div>
                 <h2>My Challenge 1 project, Created by Dev-Emmy</h2>
-              </div>
             </div>
-          </div>
          </div>
       )}
     </Fragment>
