@@ -116,32 +116,6 @@ h2 span {
 }
 
 
-.bottom_bg img {
-    opacity: 0.5;
-}
-
-.bottom_bg {
-    position: relative;
-    margin-top: 2rem;
-}
-
-.contact h2 {
-    text-align: center;
-    margin-bottom: 2rem;
-    font-weight: bolder;
-}
-
-.profile_link {
-    position: absolute;
-    top: 20%;
-    left: 30%;
-}
-
-.profile {
-    text-align: center;
-    margin-bottom: 1rem;
-}
-
 
 @media screen and (max-width : 789px) {
 
@@ -264,15 +238,6 @@ h2 span {
         height: 100%;
         width: 100%;
         min-height: 225px;
-    }
-
-
-    .bottom_bg img {
-        opacity: 0.5;
-    }
-
-    .bottom_bg {
-        position: relative;
     }
 
 }
