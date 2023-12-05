@@ -3,7 +3,25 @@
     position: relative;
 }
 
+.loading-spinner {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    border: 5px solid rgba(0, 0, 0, 0.3);
+    border-top: 5px solid #0c1e25;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
 
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
 
 
 h4 {
