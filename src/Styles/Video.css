@@ -112,10 +112,6 @@ h4 {
     display: none;
 }
 
-.bottom_bg img {
-    opacity: 0.5;
-}
-
 .bottom_bg {
     background-color: rgb(55, 50, 50);
     margin-top: 2rem;
@@ -162,33 +158,27 @@ h4 {
         }
     
     
-        .bottom_bg img {
-            opacity: 0.5;
-        }
-    
         .bottom_bg {
-            position: relative;
+            background-color: rgb(55, 50, 50);
             margin-top: 2rem;
-            text-align: center;
         }
-    
-        .bottom_bg h2 {
+
+        .contact h2 {
             text-align: center;
-            font-size: 1rem;
             margin-bottom: 2rem;
             font-weight: bolder;
+            color: #fff;
         }
-    
+
         .profile_link {
-            position: absolute;
-            top: 20%;
-            left: 0%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
-    
+
         .profile {
-            top: 20%;
-            left: 0%;
+            text-align: center;
+            margin-bottom: 1rem;
         }
-
-
 }
