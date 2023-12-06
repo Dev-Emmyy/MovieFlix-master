@@ -283,7 +283,7 @@ h2 span {
 
     /* Your styles for screens larger than iPhone XR */
     #bg_image::before {
-        height: 110vh;
+        height: 100vh;
     }
 }
 
