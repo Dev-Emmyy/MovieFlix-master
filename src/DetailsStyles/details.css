@@ -260,7 +260,6 @@ h2 span {
 
 }
 
-
 /* Larger than mobile portrait */
 @media screen and (min-width: 375px) {
 
@@ -276,6 +275,24 @@ h2 span {
     /* Your styles for screens larger than iPhone 6/7/8 */
     #bg_image::before {
         height: 140vh;
+    }
+}
+
+/* Larger than iPhone XR */
+@media screen and (min-width: 414px) {
+
+    /* Your styles for screens larger than iPhone XR */
+    #bg_image::before {
+        height: 120vh;
+    }
+}
+
+/* Larger than iPhone 12 and iPhone 14 (assumed similar width) */
+@media screen and (min-width: 390px) {
+
+    /* Your styles for screens larger than iPhone 12 and iPhone 14 */
+    #bg_image::before {
+        height: 130vh;
     }
 }
 
