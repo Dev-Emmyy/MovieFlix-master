@@ -261,7 +261,7 @@ h2 span {
 }
 
 /* Larger than mobile portrait */
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
 
     /* Your styles for screens larger than iPhone 5/SE */
     #bg_image::before {
@@ -270,7 +270,7 @@ h2 span {
 }
 
 /* Larger than mobile landscape */
-@media screen and (min-width: 568px) {
+@media screen and (max-width: 568px) {
 
     /* Your styles for screens larger than iPhone 6/7/8 */
     #bg_image::before {
@@ -279,7 +279,7 @@ h2 span {
 }
 
 /* Larger than iPhone XR */
-@media screen and (min-width: 414px) {
+@media screen and (max-width: 414px) {
 
     /* Your styles for screens larger than iPhone XR */
     #bg_image::before {
@@ -288,7 +288,7 @@ h2 span {
 }
 
 /* Larger than iPhone 12 and iPhone 14 (assumed similar width) */
-@media screen and (min-width: 390px) {
+@media screen and (max-width: 390px) {
 
     /* Your styles for screens larger than iPhone 12 and iPhone 14 */
     #bg_image::before {
@@ -297,7 +297,7 @@ h2 span {
 }
 
 /* Larger than iPhone X */
-@media screen and (min-width: 812px) {
+@media screen and (max-width: 812px) {
 
     /* Your styles for screens larger than iPhone X */
     #bg_image::before {
@@ -306,7 +306,7 @@ h2 span {
 }
 
 /* Larger than iPad Pro */
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
 
     /* Your styles for screens larger than iPad Pro */
     #bg_image::before {
@@ -315,7 +315,7 @@ h2 span {
 }
 
 /* Larger than desktop */
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 1200px) {
 
     /* Your styles for screens larger than desktop */
     #bg_image::before {
