@@ -133,8 +133,7 @@ h2 span {
         top: 6%;
         bottom: 0;
         background: rgba(0, 0, 0, .5);
-        height: 138%;
-        z-index: 1;
+        height: 150vh;
     }
 
     .loading-spinner {
@@ -259,4 +258,50 @@ h2 span {
         min-height: 225px;
     }
 
+}
+
+
+/* Larger than mobile portrait */
+@media screen and (min-width: 375px) {
+
+    /* Your styles for screens larger than iPhone 5/SE */
+    #bg_image::before {
+        height: 120vh;
+    }
+}
+
+/* Larger than mobile landscape */
+@media screen and (min-width: 568px) {
+
+    /* Your styles for screens larger than iPhone 6/7/8 */
+    #bg_image::before {
+        height: 130vh;
+    }
+}
+
+/* Larger than iPhone X */
+@media screen and (min-width: 812px) {
+
+    /* Your styles for screens larger than iPhone X */
+    #bg_image::before {
+        height: 140vh;
+    }
+}
+
+/* Larger than iPad Pro */
+@media screen and (min-width: 1024px) {
+
+    /* Your styles for screens larger than iPad Pro */
+    #bg_image::before {
+        height: 160vh;
+    }
+}
+
+/* Larger than desktop */
+@media screen and (min-width: 1200px) {
+
+    /* Your styles for screens larger than desktop */
+    #bg_image::before {
+        height: 170vh;
+    }
 }
