@@ -1,4 +1,14 @@
 
+#bg_image::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 6%;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+    height: 100%;
+}
 
 #details_container {
     position: relative;
@@ -113,6 +123,17 @@ h2 span {
     html,
     body {
         overflow-x: hidden;
+    }
+
+    #bg_image::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 6%;
+        bottom: 0;
+        background: rgba(0, 0, 0, .5);
+        height: 100%;
     }
 
     .loading-spinner {
