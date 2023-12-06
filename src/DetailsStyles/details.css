@@ -265,7 +265,7 @@ h2 span {
 
     /* Your styles for screens larger than iPhone 5/SE */
     #bg_image::before {
-        height: 150vh;
+        height: 153vh;
     }
 }
 
@@ -274,7 +274,7 @@ h2 span {
 
     /* Your styles for screens larger than iPhone 6/7/8 */
     #bg_image::before {
-        height: 140vh;
+        height: 143vh;
     }
 }
 
@@ -283,7 +283,7 @@ h2 span {
 
     /* Your styles for screens larger than iPhone XR */
     #bg_image::before {
-        height: 120vh;
+        height: 100vh;
     }
 }
 
@@ -292,7 +292,7 @@ h2 span {
 
     /* Your styles for screens larger than iPhone 12 and iPhone 14 */
     #bg_image::before {
-        height: 130vh;
+        height: 100vh;
     }
 }
 
