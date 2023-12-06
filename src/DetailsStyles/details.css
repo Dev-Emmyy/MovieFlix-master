@@ -283,7 +283,7 @@ h2 span {
 
     /* Your styles for screens larger than iPhone XR */
     #bg_image::before {
-        height: 120vh;
+        height: 115vh;
     }
 }
 
@@ -292,7 +292,7 @@ h2 span {
 
     /* Your styles for screens larger than iPhone 12 and iPhone 14 */
     #bg_image::before {
-        height: 120vh;
+        height: 118vh;
     }
 }
 
@@ -310,7 +310,7 @@ h2 span {
 
     /* Your styles for screens larger than iPad Pro */
     #bg_image::before {
-        height: 120vh;
+        height: 100vh;
     }
 }
 
@@ -319,6 +319,6 @@ h2 span {
 
     /* Your styles for screens larger than desktop */
     #bg_image::before {
-        height: 170vh;
+        height: 100vh;
     }
 }
