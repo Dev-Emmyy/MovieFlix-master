@@ -133,7 +133,8 @@ h2 span {
         top: 6%;
         bottom: 0;
         background: rgba(0, 0, 0, .5);
-        height: 140vh;
+        height: 100%;
+        z-index: 1;
     }
 
     .loading-spinner {
